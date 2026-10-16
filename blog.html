@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEO Insights &amp; Search Console Tutorials | AcuitySEO</title>
+  <meta name="description" content="Read expert guides on Google Search Console indexing, on-site schema architecture, Core Web Vitals optimization, and modern off-site link building." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://acuityseo.example.com/blog.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SEO Insights &amp; Search Console Tutorials | AcuitySEO" />
+  <meta property="og:description" content="Technical tutorials on site indexing, verification, and on-site/off-site SEO mastery." />
+  <meta property="og:image" content="https://acuityseo.example.com/assets/images/og-card.svg" />
+  <meta property="og:url" content="https://acuityseo.example.com/blog.html" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- BreadcrumbList Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://acuityseo.example.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Insights & Blog",
+        "item": "https://acuityseo.example.com/blog.html"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        </div>
+        <span>Acuity<span class="text-gradient">SEO</span></span>
+      </a>
+
+      <nav class="nav-links" id="main-navigation" role="navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="case-studies.html" class="nav-link">Case Studies</a>
+        <a href="blog.html" class="nav-link active">Insights</a>
+        <a href="seo-dashboard.html" class="nav-link" style="color:#10b981; font-weight:600;">⚡ SEO Command Center</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="seo-dashboard.html" class="btn btn-primary btn-sm">GSC Tools</a>
+        <button class="mobile-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="breadcrumb-nav">
+    <div class="container">
+      <nav class="breadcrumb-list" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-separator">/</span>
+        <span style="color:var(--text-primary);">Insights</span>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container section">
+    
+    <div class="section-title-wrap">
+      <span class="section-tag">Search Engineering Publications</span>
+      <h1>Technical SEO &amp; Search Console Playbook</h1>
+      <p class="section-desc">Actionable guides written by technical search engineers to help you diagnose crawl issues, scale indexing, and outrank competitors.</p>
+    </div>
+
+    <!-- Featured Post -->
+    <article class="glass-card" style="margin-bottom: 40px; padding: 40px; border-color: rgba(99,102,241,0.35);">
+      <div class="article-meta">
+        <span class="badge" style="background:#6366f1; color:#fff; font-size:0.75rem; padding:3px 10px; border-radius:99px;">Search Console Masterclass</span>
+        <span>October 16, 2026</span>
+        <span>&bull;</span>
+        <span>8 min read</span>
+      </div>
+
+      <h2 style="font-size: 2rem; margin-bottom: 16px;">
+        <a href="blog-post-indexing.html" style="color:#fff; text-decoration:none;">
+          How to Verify and Index New Websites in Google Search Console Within 24 Hours
+        </a>
+      </h2>
+
+      <p style="margin-bottom: 24px; color: var(--text-secondary); font-size: 1.05rem;">
+        A complete walkthrough of the HTML verification tag, XML sitemap auto-discovery, URL Inspection tool API requests, and solving "Discovered - currently not indexed" before it stalls your organic traffic.
+      </p>
+
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+        <div class="author-chip">
+          <div class="author-avatar">AK</div>
+          <div>
+            <strong style="font-size: 0.9rem; color: #fff;">Alex Thorne</strong>
+            <div style="font-size: 0.8rem; color: #94a3b8;">Principal SEO Architect</div>
+          </div>
+        </div>
+        <a href="blog-post-indexing.html" class="btn btn-emerald btn-sm">Read Full Guide &rarr;</a>
+      </div>
+    </article>
+
+    <!-- Post Grid -->
+    <div class="cards-grid">
+      
+      <article class="service-card">
+        <div class="article-meta" style="margin-bottom: 12px;">
+          <span style="color: #10b981; font-weight: 600; font-size: 0.85rem;">On-Site SEO</span>
+          <span>&bull;</span>
+          <span>5 min read</span>
+        </div>
+        <h3 class="service-title" style="font-size: 1.25rem;">
+          The Single H1 Rule: Why Semantic HTML Still Rules Modern Google SERPs
+        </h3>
+        <p class="service-desc">
+          How proper HTML5 landmark tags (header, nav, main, article, footer) improve accessibility, crawl efficiency, and algorithmic relevance parsing.
+        </p>
+        <a href="blog-post-indexing.html" class="btn btn-secondary btn-sm" style="margin-top:auto;">Read Article &rarr;</a>
+      </article>
+
+      <article class="service-card">
+        <div class="article-meta" style="margin-bottom: 12px;">
+          <span style="color: #a855f7; font-weight: 600; font-size: 0.85rem;">Off-Site SEO</span>
+          <span>&bull;</span>
+          <span>7 min read</span>
+        </div>
+        <h3 class="service-title" style="font-size: 1.25rem;">
+          Entity Stacking: Building Domain Trust with Matching Schema &amp; Social Citations
+        </h3>
+        <p class="service-desc">
+          Why establishing cohesive sameAs Schema.org linkages between Crunchbase, GitHub, LinkedIn, and your domain gives Google total confidence in your brand.
+        </p>
+        <a href="blog-post-indexing.html" class="btn btn-secondary btn-sm" style="margin-top:auto;">Read Article &rarr;</a>
+      </article>
+
+      <article class="service-card">
+        <div class="article-meta" style="margin-bottom: 12px;">
+          <span style="color: #38bdf8; font-weight: 600; font-size: 0.85rem;">Performance</span>
+          <span>&bull;</span>
+          <span>6 min read</span>
+        </div>
+        <h3 class="service-title" style="font-size: 1.25rem;">
+          Zero Layout Shift: How We Maintained CLS 0.00 Across 10,000 Dynamic Pages
+        </h3>
+        <p class="service-desc">
+          CSS tips, aspect-ratio dimensions, and web-font display strategies to avoid Google's Page Experience ranking demotions.
+        </p>
+        <a href="blog-post-indexing.html" class="btn btn-secondary btn-sm" style="margin-top:auto;">Read Article &rarr;</a>
+      </article>
+
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container text-center" style="font-size:0.9rem; color:var(--text-muted);">
+      &copy; 2026 AcuitySEO Publications. Built for Google Search Console compliance.
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

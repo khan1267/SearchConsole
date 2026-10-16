@@ -1,0 +1,18 @@
+# Robots.txt for AcuitySEO
+# Directives for Googlebot, Bingbot, and modern AI/Search crawlers
+
+User-agent: *
+Allow: /
+Disallow: /scratch/
+Disallow: /admin/
+Disallow: /*.json$
+
+# Googlebot specific optimizations
+User-agent: Googlebot
+Allow: /
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Google Search Console XML Sitemap location
+Sitemap: https://acuityseo.example.com/sitemap.xml

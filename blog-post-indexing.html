@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Verify and Index New Websites in Google Search Console | AcuitySEO</title>
+  <meta name="description" content="Step-by-step masterclass on verifying your website in Google Search Console, submitting sitemaps, optimizing on-site SEO tags, and solving crawl indexing delays." />
+  <meta name="keywords" content="google search console verification, index website google, sitemap submission, robots.txt, technical seo tutorial" />
+  <meta name="author" content="Alex Thorne" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <link rel="canonical" href="https://acuityseo.example.com/blog-post-indexing.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="How to Verify and Index New Websites in Google Search Console Within 24 Hours" />
+  <meta property="og:description" content="Master Google Search Console verification methods, sitemap submission, and fast crawl discovery." />
+  <meta property="og:image" content="https://acuityseo.example.com/assets/images/og-card.svg" />
+  <meta property="og:url" content="https://acuityseo.example.com/blog-post-indexing.html" />
+  <meta property="article:published_time" content="2026-10-16T08:00:00+00:00" />
+  <meta property="article:author" content="Alex Thorne" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- JSON-LD Structured Data: BlogPosting & BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://acuityseo.example.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://acuityseo.example.com/blog.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Search Console Indexing Guide",
+            "item": "https://acuityseo.example.com/blog-post-indexing.html"
+          }
+        ]
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "https://acuityseo.example.com/blog-post-indexing.html#article",
+        "headline": "How to Verify and Index New Websites in Google Search Console Within 24 Hours",
+        "description": "Step-by-step masterclass on verifying your website in Google Search Console, submitting sitemaps, optimizing on-site SEO tags, and solving crawl indexing delays.",
+        "image": "https://acuityseo.example.com/assets/images/og-card.svg",
+        "datePublished": "2026-10-16T08:00:00+00:00",
+        "dateModified": "2026-10-16T08:00:00+00:00",
+        "author": {
+          "@type": "Person",
+          "name": "Alex Thorne",
+          "jobTitle": "Principal SEO Architect"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "AcuitySEO",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://acuityseo.example.com/assets/images/logo.svg"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://acuityseo.example.com/blog-post-indexing.html"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        </div>
+        <span>Acuity<span class="text-gradient">SEO</span></span>
+      </a>
+
+      <nav class="nav-links" id="main-navigation" role="navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="case-studies.html" class="nav-link">Case Studies</a>
+        <a href="blog.html" class="nav-link active">Insights</a>
+        <a href="seo-dashboard.html" class="nav-link" style="color:#10b981; font-weight:600;">⚡ SEO Command Center</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="seo-dashboard.html" class="btn btn-emerald btn-sm">Try GSC Tool</a>
+        <button class="mobile-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="breadcrumb-nav">
+    <div class="container">
+      <nav class="breadcrumb-list" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-separator">/</span>
+        <a href="blog.html">Insights</a>
+        <span class="breadcrumb-separator">/</span>
+        <span style="color:var(--text-primary);">Search Console Indexing Guide</span>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container section" style="max-width: 860px;">
+    
+    <article>
+      <header style="margin-bottom: 36px;">
+        <div class="article-meta">
+          <span class="badge" style="background:#10b981; color:#042f1a; font-size:0.75rem; padding:3px 10px; border-radius:99px;">Technical Guide</span>
+          <span>Published October 16, 2026</span>
+          <span>&bull;</span>
+          <span>By Alex Thorne</span>
+        </div>
+
+        <h1 style="margin-bottom: 20px;">
+          How to Verify and Index New Websites in Google Search Console Within 24 Hours
+        </h1>
+
+        <p class="section-desc" style="font-size: 1.2rem;">
+          Launching a new website is thrilling, but until Googlebot crawls, renders, and indexes your pages, your site remains invisible to 93% of global internet traffic. Here is the exact technical blueprint to secure verification and prompt indexation.
+        </p>
+      </header>
+
+      <div style="background: rgba(99,102,241,0.08); border: 1px solid rgba(99,102,241,0.25); border-radius: 12px; padding: 24px; margin-bottom: 40px;">
+        <strong style="color: #38bdf8; display: block; margin-bottom: 8px;">Table of Contents</strong>
+        <ul style="display:flex; flex-direction:column; gap:6px; font-size:0.95rem;">
+          <li><a href="#step-1" style="color:var(--text-secondary);">&rarr; 1. Choosing the Right Search Console Property Type</a></li>
+          <li><a href="#step-2" style="color:var(--text-secondary);">&rarr; 2. Verification via HTML Tag vs. HTML File</a></li>
+          <li><a href="#step-3" style="color:var(--text-secondary);">&rarr; 3. Crafting Robots.txt and Sitemap.xml for Rapid Discovery</a></li>
+          <li><a href="#step-4" style="color:var(--text-secondary);">&rarr; 4. Using the URL Inspection Tool to Force Crawl</a></li>
+          <li><a href="#step-5" style="color:var(--text-secondary);">&rarr; 5. Accelerating Indexing Through Off-Site Signals</a></li>
+        </ul>
+      </div>
+
+      <div style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem; display:flex; flex-direction:column; gap:28px;">
+        
+        <section id="step-1">
+          <h2 style="color: #fff; margin-bottom: 12px; font-size: 1.6rem;">1. Choosing the Right Search Console Property Type</h2>
+          <p>
+            When adding a new property in Google Search Console, you are offered two options:
+          </p>
+          <ul style="padding-left: 20px; list-style: disc; margin: 12px 0;">
+            <li><strong>Domain Property (e.g. example.com):</strong> Covers all subdomains (www, m, blog) and protocols (http, https). This method strictly requires DNS TXT record verification.</li>
+            <li><strong>URL Prefix Property (e.g. https://example.com):</strong> Only covers URLs under the exact specified address. This allows immediate verification via an <strong>HTML Meta Tag</strong> or <strong>HTML File Upload</strong>, making it the fastest choice for modern single-domain setups and test deployments (like Vercel or Netlify).</li>
+          </ul>
+        </section>
+
+        <section id="step-2">
+          <h2 style="color: #fff; margin-bottom: 12px; font-size: 1.6rem;">2. Verification via HTML Tag vs. HTML File</h2>
+          <p>
+            The simplest verification method is placing a meta tag inside your site's <code>&lt;head&gt;</code> element:
+          </p>
+          <div class="code-display">
+            &lt;meta name="google-site-verification" content="YOUR_UNIQUE_HASH_CODE" /&gt;
+          </div>
+          <p>
+            In our included <strong><a href="seo-dashboard.html" style="color:#10b981; text-decoration:underline;">SEO Command Center</a></strong>, you can paste your token directly, and the site will dynamically apply it into the live document head or generate the matching <code>google[hash].html</code> file for you.
+          </p>
+        </section>
+
+        <section id="step-3">
+          <h2 style="color: #fff; margin-bottom: 12px; font-size: 1.6rem;">3. Crafting Robots.txt and Sitemap.xml for Rapid Discovery</h2>
+          <p>
+            Once verified, Googlebot will look for two primary files:
+          </p>
+          <ol style="padding-left: 20px; display:flex; flex-direction:column; gap:10px;">
+            <li>
+              <strong>robots.txt:</strong> Must return an HTTP 200 status code and allow search crawlers into key directories. Crucially, it must point directly to your XML sitemap URL via <code>Sitemap: https://your-site.com/sitemap.xml</code>.
+            </li>
+            <li>
+              <strong>sitemap.xml:</strong> An XML file complying with the Sitemaps Protocol containing exact canonical URLs, last modification dates (<code>&lt;lastmod&gt;</code>), and priority weights.
+            </li>
+          </ol>
+        </section>
+
+        <section id="step-4">
+          <h2 style="color: #fff; margin-bottom: 12px; font-size: 1.6rem;">4. Using the URL Inspection Tool to Force Crawl</h2>
+          <p>
+            Don't just wait for Googlebot's automated schedule. In Google Search Console:
+          </p>
+          <ol style="padding-left: 20px; display:flex; flex-direction:column; gap:8px;">
+            <li>Enter your target URL in the top search bar ("Inspect any URL in property").</li>
+            <li>Click <strong>Test Live URL</strong> to verify that Google can render your HTML and fetch your assets.</li>
+            <li>Click <strong>Request Indexing</strong>. This places your URL in Google's high-priority crawl queue, typically resulting in live search indexation within 4 to 24 hours.</li>
+          </ol>
+        </section>
+
+        <section id="step-5">
+          <h2 style="color: #fff; margin-bottom: 12px; font-size: 1.6rem;">5. Accelerating Indexing Through Off-Site Signals</h2>
+          <p>
+            Googlebot crawls the web by following links. A brand new site with zero inbound links is known as an "orphan entity". To prompt immediate crawling:
+          </p>
+          <p>
+            Create matching social entity profiles (Twitter/X, GitHub, LinkedIn), submit your domain to high-authority business directories (ProductHunt, Crunchbase), and publish an introductory announcement. When Googlebot crawls these high-authority platforms, it follows the inbound link directly to your new website.
+          </p>
+        </section>
+
+      </div>
+
+      <div style="margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border-subtle); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+        <div>
+          <strong style="color:#fff;">Ready to test your site?</strong>
+          <p style="font-size:0.9rem; color:var(--text-secondary);">Use our built-in Search Console tools to verify in seconds.</p>
+        </div>
+        <a href="seo-dashboard.html" class="btn btn-primary">Go to SEO Command Center &rarr;</a>
+      </div>
+    </article>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container text-center" style="font-size:0.9rem; color:var(--text-muted);">
+      &copy; 2026 AcuitySEO Blog. Built for Google Search Console compliance.
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

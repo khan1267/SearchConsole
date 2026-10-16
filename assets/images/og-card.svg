@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" fill="none">
+  <defs>
+    <linearGradient id="og-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090e" />
+      <stop offset="50%" stop-color="#0e1424" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+    <linearGradient id="og-brand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="emerald-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <radialGradient id="og-glow" cx="80%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="rgba(99, 102, 241, 0.25)" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#og-bg)" />
+  <rect width="1200" height="630" fill="url(#og-glow)" />
+
+  <!-- Subtle Grid Lines -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="630" />
+    <line x1="300" y1="0" x2="300" y2="630" />
+    <line x1="500" y1="0" x2="500" y2="630" />
+    <line x1="700" y1="0" x2="700" y2="630" />
+    <line x1="900" y1="0" x2="900" y2="630" />
+    <line x1="1100" y1="0" x2="1100" y2="630" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="260" x2="1200" y2="260" />
+    <line x1="0" y1="400" x2="1200" y2="400" />
+    <line x1="0" y1="540" x2="1200" y2="540" />
+  </g>
+
+  <!-- Brand Badge Top Left -->
+  <g transform="translate(100, 90)">
+    <rect width="180" height="42" rx="21" fill="rgba(99,102,241,0.15)" stroke="rgba(99,102,241,0.4)" stroke-width="1.5" />
+    <circle cx="24" cy="21" r="5" fill="#10b981" />
+    <text x="38" y="26" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="16" font-weight="700" fill="#f8fafc" letter-spacing="1">ACUITY SEO</text>
+  </g>
+
+  <!-- Headline -->
+  <text x="100" y="220" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="56" font-weight="800" fill="#ffffff" letter-spacing="-1">
+    Precision Technical SEO &amp;
+  </text>
+  <text x="100" y="290" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="56" font-weight="800" fill="url(#og-brand)" letter-spacing="-1">
+    Search Console Authority Engine
+  </text>
+
+  <!-- Subtitle -->
+  <text x="100" y="360" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="24" fill="#94a3b8">
+    Validated On-Site Architecture, Schema Engineering &amp; High-Impact Off-Site Signals.
+  </text>
+
+  <!-- Highlights Pills -->
+  <g transform="translate(100, 440)">
+    <rect width="260" height="56" rx="14" fill="#131b2e" stroke="rgba(255,255,255,0.1)" />
+    <text x="24" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="600" fill="#38bdf8">✓ 100/100 Core Web Vitals</text>
+  </g>
+  <g transform="translate(380, 440)">
+    <rect width="280" height="56" rx="14" fill="#131b2e" stroke="rgba(255,255,255,0.1)" />
+    <text x="24" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="600" fill="#10b981">✓ Google Search Console Ready</text>
+  </g>
+  <g transform="translate(680, 440)">
+    <rect width="250" height="56" rx="14" fill="#131b2e" stroke="rgba(255,255,255,0.1)" />
+    <text x="24" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="600" fill="#a855f7">✓ Full JSON-LD Schemas</text>
+  </g>
+
+  <!-- Footer URL -->
+  <text x="100" y="560" font-family="'Space Grotesk', monospace" font-size="18" fill="#64748b">https://acuityseo.example.com</text>
+</svg>
