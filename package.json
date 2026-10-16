@@ -4,6 +4,7 @@
   "private": true,
   "description": "Enterprise Technical SEO and Google Search Console test website with on-site and off-site frameworks",
   "scripts": {
+    "build": "echo 'Static assets ready'",
     "start": "node scripts/dev-server.js",
     "dev": "node scripts/dev-server.js",
     "tunnel": "npx -y localtunnel --port 3000"
