@@ -2,11 +2,11 @@
   "name": "acuity-seo-search-console-test",
   "version": "1.0.0",
   "private": true,
-  "main": "index.js",
+  "main": "api/index.js",
   "description": "Enterprise Technical SEO and Google Search Console test website with on-site and off-site frameworks",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js"
+    "start": "node api/index.js",
+    "dev": "node api/index.js"
   },
   "keywords": [
     "search-console",

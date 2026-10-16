@@ -1,13 +1,13 @@
 {
   "functions": {
-    "index.js": {
+    "api/index.js": {
       "includeFiles": "**"
     }
   },
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/index.js"
+      "source": "/(.*)",
+      "destination": "/api/index.js"
     }
   ]
 }
