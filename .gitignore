@@ -1,6 +1,10 @@
-# Dependencies
+# Dependencies & Local Scripts
 node_modules/
-.npm/
+package.json
+package-lock.json
+scripts/
+vercel.json
+netlify.toml
 
 # Logs
 *.log
