@@ -1,11 +1,11 @@
 {
   "name": "acuity-seo-search-console-test",
   "version": "1.0.0",
+  "private": true,
   "description": "Enterprise Technical SEO and Google Search Console test website with on-site and off-site frameworks",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
+    "start": "node scripts/dev-server.js",
+    "dev": "node scripts/dev-server.js",
     "tunnel": "npx -y localtunnel --port 3000"
   },
   "keywords": [

@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = process.env.PORT || 3000;
-const PUBLIC_DIR = __dirname;
+const PUBLIC_DIR = path.join(__dirname, '..');
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=UTF-8',
@@ -24,7 +24,11 @@ const server = http.createServer((req, res) => {
     reqPath = '/index.html';
   }
 
-  const filePath = path.join(PUBLIC_DIR, reqPath);
+  // Handle clean URLs locally (e.g. /services -> /services.html)
+  let filePath = path.join(PUBLIC_DIR, reqPath);
+  if (!path.extname(filePath) && fs.existsSync(filePath + '.html')) {
+    filePath = filePath + '.html';
+  }
 
   // Security check to prevent directory traversal
   if (!filePath.startsWith(PUBLIC_DIR)) {
@@ -54,6 +58,6 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`\n🚀 AcuitySEO Test Server running at: http://localhost:${PORT}`);
+  console.log(`\n🚀 AcuitySEO Local Dev Server running at: http://localhost:${PORT}`);
   console.log(`📡 Google Search Console ready. Press Ctrl+C to stop.\n`);
 });
